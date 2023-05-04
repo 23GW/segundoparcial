@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Poppins:wght@900&family=Ubuntu&display=swap');
+
+
+/* SELECTORES BASICOS */
+header, section, article, nav, footer, aside, figure, form{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    
+}
+*{
+    box-sizing: border-box;
+}
+p, h1, h2,h3, h4{
+    font-family: 'Roboto', sans-serif;
+    font-size:14px;
+    color: linear-gradient(90deg, rgb(114, 108, 219) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    margin: 6px;
+}
+h1{font-size: 64px;}
+
+
+h1{background-image: linear-gradient(90deg, #01204B 40%, #04638C 50%, #07A8CE 60%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;}
+a img{
+    border: none,
+}
+ul, ol{
+    font-family: '', sans-serif;
+    font-size: 14px;
+    color: #555555;
+}
+#scrollUp{
+    width: 60px;
+    height: 60px;
+    bottom: 10px;
+    right: 10px;
+    /* background-image: ; */
+}
+#cajacabercera{
+    width: 100%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+#cabecera{
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+#logo{
+    width: 1%;
+    padding: 1px 0;
+    position: relative;
+}
+/* -------------------MENU------------------------ */
+
+.menu{
+    width: 80%;
+}
+#btn-menu{
+    display: none;
+}
+#mmovil{
+    font-size: 60px;
+    cursor: pointer;
+    text-align: right;
+    color: #65cded;
+    display: none;
+}
+.menu ul{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu a{
+    display: block;
+    line-height: 90px;
+    padding: 0 15px;
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+}
+.menu a i{
+    font-size: 25px;
+    padding: 0 7px;
+}
+.menu a:hover{
+    color: #fff;
+    border-bottom: 2px solid #f2f2f2;
+    background-color: #0c9ee2;
+}
+.seccion{
+    width: 100%;
+    margin: 0;
+}
+.inicio{
+    background-image: url("../imagenes/banner1.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 792px;
+    position: relative;
+}
+.quehacemos{
+    background: #fffefe url("../imagenes/tren.png") no-repeat bottom;
+    height: 1000px;
+    position: relative;
+    padding-top: 100px;
+    background-position: right bottom;
+}
+.queofrecemos{
+    background: #f7f0f0 url("../imagenes/fondo-ciudad.png") no-repeat bottom;
+    height: 1000px;
+    position: relative;
+    padding-top: 100px;
+}
+.clientes{
+    background: #fffefe url("../imagenes/tren.png") no-repeat bottom;
+    height: 1000px;
+    position: relative;
+    padding-top: 100px;
+    background-position: right bottom;
+}
+.portafolio{
+    background: #f7f0f0 url("../imagenes/fondo-ciudad.png") no-repeat bottom;
+    height: 1000px;
+    position: relative;
+    padding-top: 100px;
+}
+
+
+
+/* ---------------------------------------------------
+---------------PIE DE PAGINA-----------------------
+--------------------------------------------------- */
+#piepagina{
+    background: #2a63cc;
+    padding: 2% 0;
+}
+.cajapie{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+
+}
+#piepagina p{
+    text-align: center;
+    color: #ffffff;
+}
+#piepagina ul{
+    width: 160px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+#piepagina ul li{
+    padding: 0 5px;
+}
+#piepagina ul li a{
+    width: 4opx;
+    height: 40px;
+    display: block;
+    line-height: 40px;
+    color: #48afeb;
+    text-align: center;
+    font-size: 20px;
+}
+
